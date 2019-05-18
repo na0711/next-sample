@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import Layout from '../components/MyLayout'
+import Layout from '../components/Layout'
 
 export default () => (
-    <Layout>
+    <Layout title='index' description='indexだよ'>
         <h1>next.js</h1>
         <p>welcome to next.js</p>
         <Link href='/other'>
